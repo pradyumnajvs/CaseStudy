@@ -1,3 +1,6 @@
+
+This case study is from a series of workshops/case studies conducted by SuperDataScience website
+
 Disclaimer: SuperDataScience has no affiliation with Wikipedia. The scenario is made up for educational purposes. You are a Data Analyst working for Wikipedia. You have been given a large, dirty data set detailing the page views for a single hour. The head of the Analytics Team would like you to write a script to clean the data and create some visualisations.
 
 1. Optional very difficult question: Load the following files and append them to create one data file. See the hints page for some help to do this in a very powerful way a. wikipedia_data.csv, aa.csv, abw.csv, ab.csv, aaw.csv
