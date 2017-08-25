@@ -22,7 +22,7 @@ Let us first load the data and check the structure of the dataset
 ```{r echo=FALSE, message=FALSE, warning=FALSE, Load_the_Data}
 # Load the Data
 rm(list = ls())
-setwd("C:/Users/vj853t/Documents/DataScience/Case Study/Case Study 2")
+setwd("C:/Users/username/Documents/DataScience/Case Study/Case Study 2")
 crime_data <- read.csv("~/DataScience/Case Study/Case Study 2/CrimeData2.csv")
 str(crime_data)
 names(crime_data)
