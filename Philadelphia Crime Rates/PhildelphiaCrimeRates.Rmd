@@ -9,7 +9,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 This is an R Markdown document for Philadelphia Crime Rate Dataset. 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, message=FALSE, warning=FALSE, packages}
 # Load all of the packages that you end up using
@@ -45,7 +44,6 @@ str(crime_data)
 ```
 
 ## Overall trend in crimes for the whole period of time in the dataset (The granularity should be at the Day level)
-
 Now we need to calculate the number of crimes that occur in Philadephia per day. 
 ```{r echo=FALSE, crime_trend}
 crimecount_bydate <- aggregate(crime_data$Date, list(date = crime_data$Date), FUN=length)
