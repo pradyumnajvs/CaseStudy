@@ -33,7 +33,7 @@ library(caTools)
 Load the data into a variable and check its structure. Since there are 2 datasets in this case, we will load VARIABLE NAMES.CSV dataset first followed by the DATA.CSV dataset
 ```{r echo= FALSE, message = FALSE, loadvar}
 rm(list = ls())
-setwd("C:/Users/vj853t/Documents/DataScience/Case Study/Case Study 12")
+setwd("C:/Users/username/Documents/DataScience/Case Study/Case Study 12")
 var_name <- read.csv("~/DataScience/Case Study/Case Study 12/variable_names.csv", header = FALSE)
 str(var_name)
 ```
