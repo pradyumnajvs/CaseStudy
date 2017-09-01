@@ -71,7 +71,7 @@ head(model_data)
 #Bivariate Analysis
 
 Check for correlations between medIncome and PctUnemployed. Plot these variables to confirm correlations
-```{r echo=FALSE, medIncomePctUnemployed}
+```{r medIncomePctUnemployed}
 cor(model_data$medIncome, model_data$PctUnemployed)
 plot(model_data$medIncome, model_data$PctUnemployed, main = "Median Income per % of people 16 and over, in the labor force, and unemployed", 
      xlab = "Median Household Income",
